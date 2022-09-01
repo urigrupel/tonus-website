@@ -2,6 +2,7 @@
 :root{
 	--main-color-900: hsl(119, 70%, 13%);
 	--main-color-400: hsl(119, 31%, 51%);
+	--main-color-100: hsl(119, 31%, 80%);
 
 	--secondary-color-400: hsl(11, 98%, 40%);
 
@@ -184,5 +185,26 @@ footer{
 	font-weight: 400;
 	text-align: start;
 	margin: 0em;
+  }
+
+  .center{
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  .button{
+	display: block;
+	width: max-content;
+	padding: 1em 2em;
+	border: 2px solid var(--secondary-color-400);
+	border-radius: 100vw;
+	outline: 2px solid var(--secondary-color-400);
+	outline-offset: -2px;
+	transition: outline-offset 150ms ease-in;
+  }
+
+  .button:hover,
+  .button:focus{
+	outline-offset: -6px;
   }
   
