@@ -59,18 +59,21 @@ header{
 	padding: 0em;
 	margin-bottom: 0em;
 	background-color: var(--bg-color-100);
+	border-bottom: 0.5em solid var(--main-color-400);
 }
 
 header img{
 	margin: 0em;
 	width: 100%;
 	padding: 0em;
-	box-shadow: 0 0.5em var(--main-color-400);
+	
+	display: block;
 }
 
 h1{
+	padding-block: 1em;
 	margin: 0em;
-	border-top: 1em solid var(--bg-color-100);
+	/* border-top: 1em solid var(--bg-color-100); */
 	text-align: center;
 }
 
@@ -195,7 +198,7 @@ footer{
   .button{
 	display: block;
 	width: max-content;
-	padding: 1em 2em;
+	padding: 0.5em 1em;
 	border: 2px solid var(--secondary-color-400);
 	border-radius: 100vw;
 	outline: 2px solid var(--secondary-color-400);
