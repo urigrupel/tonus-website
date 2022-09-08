@@ -76,10 +76,13 @@ header {
 
 header img {
 	margin: 0em;
+	aspect-ratio: attr(width) / attr(height);
 	width: 100%;
+	height: auto;
 	padding: 0em;
 
 	display: block;
+	
 }
 
 h1 {
