@@ -1,5 +1,8 @@
 /* General definitions */
 :root {
+	writing-mode: horizontal-tb;
+	direction: rtl;
+
 	--main-color-900: hsl(119, 70%, 13%);
 	--main-color-400: hsl(119, 31%, 51%);
 	--main-color-100: hsl(119, 31%, 80%);
