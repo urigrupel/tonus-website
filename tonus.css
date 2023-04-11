@@ -97,6 +97,10 @@ section {
 	padding: 1em;
 }
 
+.accessability h2{
+	font-size: 1em;
+}
+
 .notice {
 	font-weight: bold;
 }
